@@ -1,30 +1,21 @@
-# React + TypeScript + Vite
+# Landing Page do Chatbot - Hackathon Edition
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o projeto da landing page desenvolvida para apresentar o chatbot integrado ao WhatsApp, criado durante o hackathon utilizando React e Typebot.
 
-Currently, two official plugins are available:
+## Visão Geral
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A landing page foi desenvolvida como parte do hackathon para promover e apresentar o chatbot aos participantes e aos jurados. Ela fornece informações relevantes sobre o chatbot, suas funcionalidades e como interagir com ele.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React:** Para o desenvolvimento da interface de usuário e gerenciamento de estado.
+- **Typebot:** Para a integração do chatbot e a coleta de informações de contato.
+- **Shadcn/ui:** Para facilitar o design responsivo e a implementação de componentes visuais.
 
-- Configure the top-level `parserOptions` property like this:
+## Como Executar Localmente
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone este repositório para o seu ambiente local.
+2. Certifique-se de ter o Node.js e o npm instalados.
+3. No terminal, navegue até o diretório do projeto e execute `npm install` para instalar as dependências.
+4. Execute `npm run dev` para iniciar o servidor de desenvolvimento.
+5. Abra o navegador e visite `http://localhost:5173` para visualizar a landing page.
